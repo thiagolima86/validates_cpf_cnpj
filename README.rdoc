@@ -1,7 +1,7 @@
 = ValidatesCpfCnpj
 
-* Source: http://github.com/rfs/validates_cpf_cnpj
-* Bugs:   http://github.com/rfs/validates_cpf_cnpj/issues
+* Original Source: http://github.com/rfs/validates_cpf_cnpj
+* New source:   http://github.com/thiagolima86/validates_cpf_cnpj
 
 == Description
 
@@ -12,7 +12,7 @@ CPF and CNPJ validations for ActiveModel and Rails.
 As gem:
 
   # in Gemfile
-  gem 'validates_cpf_cnpj'
+  gem 'validates_cpf_cnpj', :git => 'http://github.com/thiagolima86/validates_cpf_cnpj'
 
   # Run bundler
   $ bundle install
@@ -58,6 +58,9 @@ Feel free to fork, fix and send me a pull request.
 == Maintainers
 
 * {Reginaldo Francisco}[http://github.com/rfs]
+
+== Contributor
+* {Thiago Lima}[http://github.com/thiagolima86]
 
 == License
 
